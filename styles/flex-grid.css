@@ -1,10 +1,9 @@
 article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* MAGIC FLUID GUTTERS */
   align-items: flex-start; /* MAGIC JUSTIFY */
-  /*flex-direction: column;*/
-  /*height: 300px*/
+  flex-direction: column;
+  height: 300px;
 }
 
 article > section {
