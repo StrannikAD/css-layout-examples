@@ -1,0 +1,8 @@
+article {
+  column-count: 4;
+  /*column-width: 300px;*/
+}
+
+article > header {
+  width: 100%;
+}

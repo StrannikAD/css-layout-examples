@@ -1,0 +1,6 @@
+article {
+  display: grid; /* #FRESH */
+  grid-template-columns: repeat(4, 25fr);
+  grid-gap: 1em;
+  align-items: baseline; /* MAGIC ALIGNMENT */
+}

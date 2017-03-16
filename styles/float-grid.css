@@ -1,0 +1,15 @@
+article {
+  overflow: hidden; /* CLEARFIX MAGIC */
+}
+
+section {
+  float: left;
+  width: calc((100% - 3em) / 4); /* CALC MAGIC */
+  min-height: 10em; /* FAKE HEIGHT MAGIC */
+  margin-right: -0.25em;
+  box-sizing: border-box; /* BOX SIZING MAGIC */
+}
+
+section:not(:nth-of-type(4n+1)) { /* SELECTOR MAGIC */
+  margin-left: 1em;
+}
